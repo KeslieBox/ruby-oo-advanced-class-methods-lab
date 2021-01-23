@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/idmiod/Development/code/Phase1/ruby-oo-advanced-class-methods-lab/lib/song.rb @ line 72 Song.create_from_filename:
+
+    [1;34m69[0m: [32mdef[0m [1;36mself[0m.[1;34mcreate_from_filename[0m(filename)
+    [1;34m70[0m: 
+    [1;34m71[0m:   song_match = [1;36mself[0m.find_by_name(filename) 
+ => [1;34m72[0m:   binding.pry
+    [1;34m73[0m:   song = [1;36mself[0m.create_from_filename(filename)
+    [1;34m74[0m:   [32mif[0m song_match == filename
+    [1;34m75[0m:     song_match
+    [1;34m76[0m:   [32melse[0m
+    [1;34m77[0m:     song
+    [1;34m78[0m:   [32mend[0m
+    [1;34m79[0m: [32mend[0m
+
